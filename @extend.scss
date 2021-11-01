@@ -1,0 +1,74 @@
+
+
+//font-size
+$fontSizeArr: 12, 14, 16, 18, 20;
+@each $item in $fontSizeArr {
+  %fs-#{$item} {
+    font-size: $item + px;
+  }
+}
+//padding margin
+$pmArr: 6, 12, 24, 48, 96;
+@each $item in $pmArr {
+  //padding
+  %p-#{$item} {
+    padding: $item + px;
+  }
+  %pl-#{$item} {
+    padding-left: $item + px;
+  }
+  %pr-#{$item} {
+    padding-right: $item + px;
+  }
+  %pt-#{$item} {
+    padding-top: $item + px;
+  }
+  %pb-#{$item} {
+    padding-bottom: $item + px;
+  }
+  %plr-#{$item} {
+    padding-left: $item + px;
+    padding-right: $item + px;
+  }
+  %ptb-#{$item} {
+    padding-top: $item + px;
+    padding-bottom: $item + px;
+  }
+  //margin
+  %m-#{$item} {
+    margin: $item + px;
+  }
+  %ml-#{$item} {
+    margin-left: $item + px;
+  }
+  %mr-#{$item} {
+    margin-right: $item + px;
+  }
+  %mt-#{$item} {
+    margin-top: $item + px;
+  }
+  %mb-#{$item} {
+    margin-bottom: $item + px;
+  }
+  %mlr-#{$item} {
+    margin-left: $item + px;
+    margin-right: $item + px;
+  }
+  %mtb-#{$item} {
+    margin-top: $item + px;
+    margin-bottom: $item + px;
+  }
+}
+//text-align
+%ta-l{
+  text-align: left;
+}
+%ta-r{
+  text-align: right;
+}
+%ta-c{
+  text-align: center;
+}
+%fw-b{
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "y2t-common-css",
+  "version": "1.0.7",
+  "description": "y2t common css project",
+  "main": "index.css",
+  "scripts": {
+    "sass": "node-sass ./index.scss ./index.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
