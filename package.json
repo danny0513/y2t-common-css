@@ -1,6 +1,6 @@
 {
   "name": "y2t-common-css",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "description": "y2t common css project",
   "main": "index.css",
   "scripts": {
@@ -8,7 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "node-sass": "^6.0.1"
   }
 }
